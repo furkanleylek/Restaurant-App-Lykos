@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={classNames('w-full h-full bg-white', josef.className)}>
-        <div className="flex flex-col  ">
+        <div className="flex flex-col">
           <Provider>
             <div className='w-full h-full bg-secondaryBg'>
               <Header />

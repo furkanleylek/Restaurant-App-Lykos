@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
             </div>
             <div
-                className='border-t-[1px] border-third flex items-center justify-between text-third pt-4 text-[12px] xl:text-sm'
+                className='border-t-[1px] border-third border-opacity-40 flex items-center justify-between text-third pt-4 text-[12px] xl:text-sm'
             >
                 <span>@Copyright | Designed by <span className='text-stroke'>Victor Flow</span> , Coded by <span className='text-stroke'>Furkan Leylek</span> </span>
                 <span>StyleGuide / Licenses </span>
