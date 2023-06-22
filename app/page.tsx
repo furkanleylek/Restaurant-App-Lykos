@@ -29,6 +29,7 @@ export default function Home() {
           height={420}
           alt="Restaurant İçi"
           className='xl:hidden h-60 md:h-80 w-full object-cover'
+          priority
         />
         <div className='w-full flex gap-32 container mx-auto pb-16 xl:pb-32 px-4 md:px-16 xl:px-32 relative '
         >
