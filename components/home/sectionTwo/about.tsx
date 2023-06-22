@@ -11,6 +11,7 @@ const About = () => {
                 height={420}
                 alt="Restaurant İçi"
                 className='hidden xl:flex xl:w-fit h-60 xl:h-96 object-cover rounded-sm'
+                priority
             />
             <span className='xl:h-full xl:w-1 bg-rose-200'></span>
             <div
