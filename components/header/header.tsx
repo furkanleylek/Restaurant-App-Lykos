@@ -42,19 +42,19 @@ const Header = () => {
             <div className='border-y-[1px] border-primary text-third py-4 hidden mdlg:flex justify-between items-center'>
                 <div className='flex items-center gap-16'>
                     <Link
-                        href='/home'>
+                        href='/'>
                         Home
                     </Link>
                     <Link
-                        href='/home'>
+                        href='/'>
                         Hakkımızda
                     </Link>
                     <Link
-                        href='/home'>
+                        href='/'>
                         Galeri
                     </Link>
                     <Link
-                        href='/home'>
+                        href='/'>
                         İletişim
                     </Link>
                 </div>
