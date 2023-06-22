@@ -1,7 +1,9 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import '@/styles/globals.css'
+import { Inter, Josefin_Sans } from 'next/font/google'
+import classNames from 'classnames'
+import Provider from '@/components/context'
+import Header from '@/components/header/header'
+const josef = Josefin_Sans({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,7 +17,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={classNames('w-full h-full bg-gradient-to-r from-white to-blue-50', josef.className)}>
+        <div className="flex flex-col  ">
+          <Provider>
+            <div className='w-full h-full bg-secondaryBg'>
+              <Header />
+            </div>
+            {children}
+          </Provider>
+        </div>
+      </body>
     </html>
   )
 }
