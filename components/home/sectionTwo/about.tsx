@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className='flex flex-col xl:flex-row justify-between gap-8 xl:gap-20'>
             <Image
-                src="/Photo.svg"
+                src="/Photo.jpg"
                 width={420}
                 height={420}
                 alt="Restaurant İçi"

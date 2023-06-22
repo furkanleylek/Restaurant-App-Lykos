@@ -2,10 +2,14 @@ import Image from 'next/image'
 import WelcomeSection from '@/components/home/welcome'
 import About from '@/components/home/sectionTwo/about'
 import Icons from '@/components/home/sectionTwo/icons'
-import MenuSection from '@/components/home/menuSection'
+import Menu from '@/components/home/sectionThree/menu'
+import Special from '@/components/home/sectionThree/special'
+import data from '@/data.json'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center  overflow-x-hidden">
+
+      {/* Section 1*/}
       <section
         className="w-full h-full  bg-secondaryBg"
       >
@@ -15,7 +19,7 @@ export default function Home() {
         </div>
       </section>
 
-
+      {/* Section 2*/}
       <section
         className="w-full h-full bg-primaryBg "
       >
@@ -37,16 +41,22 @@ export default function Home() {
         </div>
       </section>
 
-
+      {/* Section 3*/}
       <section
         className="w-full h-full"
       >
-        <div className='w-full flex gap-32 container mx-auto pb-20 xl:pb-32 px-4 pt-16  md:px-16 xl:px-32 relative '
+        <div className='w-full flex flex-col gap-16 xl:gap-32 container mx-auto pb-20 xl:pb-32 px-4 pt-16  md:px-16 xl:px-32 relative '
         >
-          <MenuSection />
+          <div className="flex flex-col xl:flex-row w-full gap-16 xl:gap-32">
+            <Menu dishData={data.menu[0].Starters} title='Starter' />
+            <Special />
+          </div>
+          <div className="flex flex-col xl:flex-row w-full gap-16 xl:gap-32 xl:justify-between">
+            <Menu dishData={data.menu[0].Main} title='Main Dish' />
+            <Menu dishData={data.menu[0].Dessert} title='Dessert' />
+          </div>
         </div>
       </section>
-
 
     </main>
   )

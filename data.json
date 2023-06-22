@@ -1,0 +1,78 @@
+{
+    "menu": [
+        {
+            "Starters": [
+                {
+                    "dishImageSrc": "/Food/Raw.svg",
+                    "dishTitle": "Raw Scallops from Erguy",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 40
+                },
+                {
+                    "dishImageSrc": "/Food/Spring.svg",
+                    "dishTitle": "Raw Scallops from Erguy",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 40
+                },
+                {
+                    "dishImageSrc": "/Food/French.svg",
+                    "dishTitle": "Spring Roll",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 20
+                },
+                {
+                    "dishImageSrc": "/Food/tomato.svg",
+                    "dishTitle": "French Onion Soup",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 25
+                },
+                {
+                    "dishImageSrc": "/Food/tomato.svg",
+                    "dishTitle": "Tomato Bruschetta",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 30
+                }
+            ],
+            "Main": [
+                {
+                    "dishImageSrc": "/Food/Grilled.svg",
+                    "dishTitle": "Grilled Salmon with Dil Sauce",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 40
+                },
+                {
+                    "dishImageSrc": "/Food/Roast.svg",
+                    "dishTitle": "Roast Beef with Vegetable",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 20
+                },
+                {
+                    "dishImageSrc": "/Food/Spicy.svg",
+                    "dishTitle": "Spicy Vegan Potato Curry",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 25
+                },
+                {
+                    "dishImageSrc": "/Food/Marrkesh.svg",
+                    "dishTitle": "Marrkesh Vegetetarian Curruy",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 30
+                }
+            ],
+            "Dessert": [
+                {
+                    "dishImageSrc": "/Food/Apple.svg",
+                    "dishTitle": "Apple Pie with Cream",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 40
+                },
+                {
+                    "dishImageSrc": "/Food/Lemon.svg",
+                    "dishTitle": "Lemon Meringue Pie",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 20
+                }
+            ]
+        }
+    ]
+}

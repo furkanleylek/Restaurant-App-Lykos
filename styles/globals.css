@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .divider {
+    flex: 1;
+    border-bottom: 2px dashed black;
+    margin: 0 2rem;
+    margin-bottom: 2px;
+} */
+
+.divider {
+    position: relative;
+    flex: 1;
+    border-top: 1px dashed rgb(59, 59, 59);
+    margin: 0 2rem;
+    margin-top: 2px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    /* İstediğiniz konuma göre ayarlayabilirsiniz */
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.divider::before {
+    left: -8px;
+}
+
+.divider::after {
+    right: -8px;
+}

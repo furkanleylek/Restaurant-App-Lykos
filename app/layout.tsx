@@ -3,6 +3,7 @@ import { Inter, Josefin_Sans } from 'next/font/google'
 import classNames from 'classnames'
 import Provider from '@/components/context'
 import Header from '@/components/header/header'
+import Footer from '@/components/footer/footer'
 const josef = Josefin_Sans({ subsets: ['latin'] })
 
 export const metadata = {
@@ -24,6 +25,9 @@ export default function RootLayout({
               <Header />
             </div>
             {children}
+            <div className='w-full h-full bg-secondaryBg'>
+              <Footer />
+            </div>
           </Provider>
         </div>
       </body>
