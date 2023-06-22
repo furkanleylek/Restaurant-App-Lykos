@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={classNames('w-full h-full bg-gradient-to-r from-white to-blue-50', josef.className)}>
+      <body className={classNames('w-full h-full bg-white', josef.className)}>
         <div className="flex flex-col  ">
           <Provider>
             <div className='w-full h-full bg-secondaryBg'>

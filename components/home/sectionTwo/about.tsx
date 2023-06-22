@@ -10,9 +10,9 @@ const About = () => {
                 width={420}
                 height={420}
                 alt="Restaurant İçi"
-                className='w-full xl:w-fit h-60 xl:h-96 object-cover rounded-sm'
+                className='hidden xl:flex xl:w-fit h-60 xl:h-96 object-cover rounded-sm'
             />
-            <span className='h-full w-2 bg-rose-200'></span>
+            <span className='xl:h-full xl:w-1 bg-rose-200'></span>
             <div
                 className='flex flex-col gap-6'
             >
