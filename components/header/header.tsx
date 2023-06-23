@@ -25,7 +25,7 @@ const Header = () => {
                 <AiOutlineMenu className='text-third text-3xl' />
             </div>
             <div className='hidden mdlg:flex items-center justify-between'>
-                <p className='border-[1px] py-3 px-5 border-stroke text-third'>
+                <p className='border-[1px]  py-3 px-5 border-stroke text-third'>
                     Call - 987 654 321
                 </p>
                 <Image
@@ -41,7 +41,7 @@ const Header = () => {
                 </button>
             </div>
             <div className='border-y-[1px] border-primary text-third hidden mdlg:flex justify-between items-center'>
-                <div className='flex items-center gap-16'>
+                <div className='flex items-center p-2 mt-1 gap-16'>
                     <UnderlineAnimation linkHref='/'>
                         Home
                     </UnderlineAnimation>

@@ -10,7 +10,7 @@ const cormo = Cormorant_Infant({ subsets: ['latin'], weight: '700' })
 
 const TitleH5: React.FC<TitleH5Props> = ({ children }) => {
     return (
-        <h5 className={classNames('text-xl xl:text-3xl font-bold text-secondary', cormo.className)}>
+        <h5 className={classNames('text-xl xl:text-2xl font-bold text-secondary', cormo.className)}>
             {children}
         </h5>
     );

@@ -21,7 +21,7 @@ const UnderlineAnimation: React.FC<UnderlineAnimationProps> = ({ children, linkH
             href={linkHref}
         >
             <motion.button
-                className="font-semibold text-third opacity-80 hover:opacity-100 transition-all p-2 rounded-md"
+                className="font-semibold text-third opacity-80 hover:opacity-100 transition-all rounded-md"
                 onMouseEnter={() => { setIsHovered(true) }}
                 onMouseLeave={() => { setIsHovered(false) }}
                 whileTap={{ scale: 1.1 }}

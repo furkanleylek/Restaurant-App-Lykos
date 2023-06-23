@@ -6,7 +6,7 @@ interface ParagraphProps {
 
 const Paragraph: React.FC<ParagraphProps> = ({ children }) => {
     return (
-        <p className='text-sm md:text-base'>
+        <p className='text-sm lg:text-base'>
             {children}
         </p>
     );
