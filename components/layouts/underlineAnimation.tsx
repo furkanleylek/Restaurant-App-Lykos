@@ -1,6 +1,7 @@
 'use client'
 import React, { useState, ReactNode } from 'react';
 import Link from 'next/link';
+import { motion } from 'framer-motion'
 interface UnderlineAnimationProps {
     children: ReactNode;
     linkHref: string
@@ -19,13 +20,14 @@ const UnderlineAnimation: React.FC<UnderlineAnimationProps> = ({ children, linkH
         <Link
             href={linkHref}
         >
-            <span
-                className="font-semibold text-third opacity-80 hover:opacity-100 transition-all"
+            <motion.button
+                className="font-semibold text-third opacity-80 hover:opacity-100 transition-all p-2 rounded-md"
                 onMouseEnter={() => { setIsHovered(true) }}
                 onMouseLeave={() => { setIsHovered(false) }}
+                whileTap={{ scale: 1.1 }}
             >
                 {children}
-            </span>
+            </motion.button>
             <div style={lineStyle}></div>
         </Link>
     );

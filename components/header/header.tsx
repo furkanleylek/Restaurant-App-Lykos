@@ -40,7 +40,7 @@ const Header = () => {
                     Reservation
                 </button>
             </div>
-            <div className='border-y-[1px] border-primary text-third py-4 hidden mdlg:flex justify-between items-center'>
+            <div className='border-y-[1px] border-primary text-third hidden mdlg:flex justify-between items-center'>
                 <div className='flex items-center gap-16'>
                     <UnderlineAnimation linkHref='/'>
                         Home

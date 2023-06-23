@@ -4,6 +4,7 @@ import About from '@/components/home/sectionTwo/about'
 import Icons from '@/components/home/sectionTwo/icons'
 import Menu from '@/components/home/sectionThree/menu'
 import Special from '@/components/home/sectionThree/special'
+import Slider from '@/components/home/sectionFour/slider'
 import data from '@/data.json'
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
           <Icons />
         </div>
         <Image
-          src="/Photo.svg"
+          src="/Photo.jpg"
           width={420}
           height={420}
           alt="Restaurant İçi"
@@ -58,6 +59,16 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* Section 4*/}
+      <section
+        className="w-full h-full"
+      >
+        <div className='w-full flex flex-col gap-16 xl:gap-32 container mx-auto pb-20 xl:pb-32 px-4 pt-16  md:px-16 xl:px-32 relative '
+        >
+          <Slider />
+        </div>
+      </section>
     </main>
   )
 }
