@@ -5,6 +5,7 @@ import Logo from '@/public/Logo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineMenu } from 'react-icons/ai'
+import UnderlineAnimation from '../layouts/underlineAnimation'
 const josefin = Josefin_Sans({ subsets: ['latin'] })
 
 
@@ -41,22 +42,18 @@ const Header = () => {
             </div>
             <div className='border-y-[1px] border-primary text-third py-4 hidden mdlg:flex justify-between items-center'>
                 <div className='flex items-center gap-16'>
-                    <Link
-                        href='/'>
+                    <UnderlineAnimation linkHref='/'>
                         Home
-                    </Link>
-                    <Link
-                        href='/'>
+                    </UnderlineAnimation>
+                    <UnderlineAnimation linkHref='/'>
                         Hakkımızda
-                    </Link>
-                    <Link
-                        href='/'>
+                    </UnderlineAnimation>
+                    <UnderlineAnimation linkHref='/'>
                         Galeri
-                    </Link>
-                    <Link
-                        href='/'>
+                    </UnderlineAnimation>
+                    <UnderlineAnimation linkHref='/'>
                         İletişim
-                    </Link>
+                    </UnderlineAnimation>
                 </div>
                 <div
                     className='flex items-center gap-4 text-third text-2xl'
