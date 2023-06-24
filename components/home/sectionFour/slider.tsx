@@ -91,11 +91,11 @@ function Slider() {
                     effect="coverflow"
                     grabCursor={true}
                     centeredSlides={true}
-                    spaceBetween={0}
+                    spaceBetween={40}
                     loop={true}
                     slidesPerView={slidesPerView}
                     coverflowEffect={{
-                        rotate: 20,
+                        rotate: 0,
                         stretch: 0,
                         depth: 70,
                         modifier: 1,
