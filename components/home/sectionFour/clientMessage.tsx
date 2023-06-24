@@ -13,8 +13,8 @@ export const SingleClientMessage: React.FC<SingleClientMessageProps> = ({
     client, clientMessage, clientPhoto, isActive
 }) => {
     return (
-        <div className={`p-4 py-6 bg-third rounded-md flex flex-col gap-6 ${isActive ? 'opacity-100' : 'opacity-70'}`}>
-            <div className='flex items-center gap-4 border-b-[1px] pb-6'>
+        <div className={`p-4 py-6 bg-third rounded-md flex flex-col gap-6 ${isActive ? 'opacity-100' : 'brightness-[.60]'}`}>
+            <div className='flex items-center gap-4 border-b-[1px] border-primary border-opacity-10 pb-6'>
                 <Image
                     src={clientPhoto}
                     width={80}

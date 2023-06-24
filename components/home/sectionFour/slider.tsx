@@ -97,7 +97,7 @@ function Slider() {
                     coverflowEffect={{
                         rotate: 20,
                         stretch: 0,
-                        depth: 200,
+                        depth: 70,
                         modifier: 1,
                         slideShadows: true,
                     }}
