@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import classNames from 'classnames'
 import { Cormorant_Infant } from 'next/font/google'
+import ButtonFirst from '../layouts/buttonFirst'
 const Cormo = Cormorant_Infant({ subsets: ['latin'], weight: ['600'] })
 
 const WelcomeSection = () => {
@@ -17,9 +18,9 @@ const WelcomeSection = () => {
                 <p className='text-third text-sm md:text-base xl:w-[70%]'>
                     Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy .
                 </p>
-                <button className='border-[1px] border-stroke py-2 md:py-3 xl:py-4 rounded-sm px-8 md:px-12 xl:px-16 text-white justify-start self-start'>
+                <ButtonFirst>
                     View Menü
-                </button>
+                </ButtonFirst>
             </div>
             <Image
                 src="/main.png"

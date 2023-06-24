@@ -1,6 +1,7 @@
 import React from 'react'
 import TitleH3 from '@/components/layouts/h3'
 import Image from 'next/image'
+import ButtonTwo from '@/components/layouts/buttonTwo'
 const Special = () => {
     return (
         <div className='flex flex-col gap-6 '>
@@ -18,11 +19,9 @@ const Special = () => {
                 alt="Special Food"
                 className='h-64 xl:h-96 w-full object-cover'
             />
-            <button
-                className='border-2 border-stroke py-2 px-5 text-stroke w-48 rounded-sm'
-            >
+            <ButtonTwo>
                 See All Dishes
-            </button>
+            </ButtonTwo>
         </div>
     )
 }
