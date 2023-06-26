@@ -15,7 +15,7 @@ const populerDishes = [
         populerDishName: 'Chicken Manjoori ',
         populerDishPrice: 20,
         populerDishDescription: 'Lorem Ipsum is that it has a more-or-less normal',
-        populerDishImage: '/Popular/Two.jpg'
+        populerDishImage: '/Popular/Six.jpg'
     },
     {
         populerDishName: 'Chicken Manjoori ',

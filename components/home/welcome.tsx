@@ -18,7 +18,7 @@ const WelcomeSection = () => {
                 <p className='text-third text-sm md:text-base xl:w-[70%]'>
                     Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy .
                 </p>
-                <ButtonFirst>
+                <ButtonFirst linkHref="/menu">
                     View Menü
                 </ButtonFirst>
             </div>

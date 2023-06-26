@@ -17,10 +17,11 @@ const Header = () => {
             <div className='flex justify-between items-center text-white mdlg:hidden'>
                 <Image
                     src="/Logo.svg"
-                    width={150}
-                    height={300}
+                    width={80}
+                    height={80}
                     alt="Restaurant Logo"
                     className='object-cover'
+                    priority
                 />
                 <AiOutlineMenu className='text-third text-3xl' />
             </div>

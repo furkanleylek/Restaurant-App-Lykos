@@ -11,7 +11,7 @@ interface SingleDishProps {
 
 const SingleDish: React.FC<SingleDishProps> = ({ dishImageSrc, dishTitle, dishDescription, dishPrice }) => {
     return (
-        <div className='flex gap-6 w-full '>
+        <div className='flex gap-6 w-full items-center'>
             <Image
                 src={dishImageSrc}
                 width={30}
@@ -28,9 +28,9 @@ const SingleDish: React.FC<SingleDishProps> = ({ dishImageSrc, dishTitle, dishDe
                     <div className='divider'></div>
                 </div>
             </div>
-            <div className='flex items-center gap-0  text-white bg-stroke bottm-0 p-2 self-end rounded-xl '>
-                <BsCurrencyDollar className='text-xl xl:text-3xl mb-1' />
-                <span className='text-xl xl:text-2xl '>
+            <div className='flex items-center gap-0  text-white bg-stroke bottm-0 p-2  rounded-xl '>
+                <BsCurrencyDollar className='text-base xl:text-2xl mb-1' />
+                <span className='text-base xl:text-2xl '>
                     {dishPrice}
                 </span>
             </div>
