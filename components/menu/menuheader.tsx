@@ -8,7 +8,7 @@ const MenuHeader = () => {
     const { setInsideCategory, viewType, setViewType } = useRestaurantContext()
     return (
         <div
-            className='bg-gray-50 z-20 w-full fixed md:relative top-[71px] md:top-[-10px] inset-x-0 shadow-md cursor-pointer flex'
+            className='bg-gray-50 z-10 w-full fixed md:relative top-[71px] md:top-[-10px] inset-x-0 shadow-md cursor-pointer flex'
             id='menu-header'
         >
             <div className="md:container mx-auto px-4 md:px-16 xl:px-32 w-full flex gap-10 py-4 xl:py-4">
@@ -23,17 +23,19 @@ const MenuHeader = () => {
                     </span>
                     <h3
                     >
-                        Ana Sayfa
+                        Menü
                     </h3>
                 </div>
-                <div className='flex items-center gap-4 mdlg:gap-6 text-xl'>
+                <div className='flex items-center border-[1px] rounded-xl text-xl'>
                     <button
                         onClick={() => setViewType(false)}
+                        className={`border-r-[1px] rounded-l-xl p-2 ${viewType ? '' : 'bg-orange-200'}`}
                     >
                         <GrApps />
                     </button>
                     <button
                         onClick={() => setViewType(true)}
+                        className={`p-2 rounded-r-xl ${viewType ? 'bg-orange-200' : ''}`}
                     >
                         <GrSort />
                     </button>

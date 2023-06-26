@@ -33,7 +33,7 @@ const SingleFood: React.FC<SingleFoodProps> = ({ dishTitle, dishDescription, dis
                 width={viewType ? 70 : 120}
                 height={70}
                 alt={dishTitle}
-                className={`object-cover ${viewType ? 'rounded-full' : 'rounded-sm w-full max-w-xl'}`}
+                className={`object-cover ${viewType ? 'rounded-full' : 'rounded-sm w-full'}`}
             />
             <div className={`flex flex-col gap-2 ${viewType ? 'px-0' : 'px-2'}`}>
                 <TitleH5>
@@ -56,14 +56,14 @@ const Food: React.FC<MenuProps> = ({ dishData, dishCategoryTitle }) => {
 
     return (
         <div
-            className='flex flex-col w-full mt-36 md:mt-2 gap-6 container mx-auto xl:pb-32 md:px-16 xl:px-32 relative pb-4'
+            className='flex flex-col w-full mt-40 md:mt-2 gap-6 container mx-auto xl:pb-32 md:px-16 xl:px-32 relative pb-4'
         >
             <TitleH4
                 className='underline underline-offset-4 text-3xl text-center'
             >
                 {dishCategoryTitle}
             </TitleH4>
-            <div className={`grid ${viewType ? 'grid-cols-1 ' : 'grid-cols-2 md:grid-cols-3 xl:grid-cols-4'} md:grid-cols-2 w-full gap-4`}>
+            <div className={`grid ${viewType ? 'grid-cols-1 ' : 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'} md:grid-cols-2 w-full gap-4`}>
                 {
                     dishData.map((e, index) => {
                         return (
