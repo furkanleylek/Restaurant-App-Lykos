@@ -6,6 +6,9 @@ interface ContextType {
     setCategoryIndex: React.Dispatch<React.SetStateAction<number>>
     insideCategory: boolean;
     setInsideCategory: React.Dispatch<React.SetStateAction<boolean>>
+    viewType: boolean
+    setViewType: React.Dispatch<React.SetStateAction<boolean>>
+
 }
 const Context = createContext<ContextType | undefined>(undefined)
 
@@ -13,10 +16,11 @@ function Provider({ children }: { children: React.ReactNode }) {
 
     const [categoryIndex, setCategoryIndex] = useState(0)
     const [insideCategory, setInsideCategory] = useState(false)
-
+    const [viewType, setViewType] = useState(true)
     const data = {
         categoryIndex, setCategoryIndex,
-        insideCategory, setInsideCategory
+        insideCategory, setInsideCategory,
+        viewType, setViewType
     }
 
     return (

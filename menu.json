@@ -171,6 +171,48 @@
                     "dishTitle": "Roast Beef with Vegetable",
                     "dishDescription": "Candied Jerusalem artichokes, truffle",
                     "dishPrice": 20
+                },
+                {
+                    "dishImageSrc": "/Food/Grilled.svg",
+                    "dishTitle": "Grilled Salmon with Dil Sauce",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 40
+                },
+                {
+                    "dishImageSrc": "/Food/Roast.svg",
+                    "dishTitle": "Roast Beef with Vegetable",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 20
+                },
+                {
+                    "dishImageSrc": "/Food/Spicy.svg",
+                    "dishTitle": "Spicy Vegan Potato Curry",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 25
+                },
+                {
+                    "dishImageSrc": "/Food/Marrkesh.svg",
+                    "dishTitle": "Marrkesh Vegetetarian Curruy",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 30
+                },
+                {
+                    "dishImageSrc": "/Food/Roast.svg",
+                    "dishTitle": "Roast Beef with Vegetable",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 20
+                },
+                {
+                    "dishImageSrc": "/Food/Spicy.svg",
+                    "dishTitle": "Spicy Vegan Potato Curry",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 25
+                },
+                {
+                    "dishImageSrc": "/Food/Marrkesh.svg",
+                    "dishTitle": "Marrkesh Vegetetarian Curruy",
+                    "dishDescription": "Candied Jerusalem artichokes, truffle",
+                    "dishPrice": 30
                 }
             ]
         }

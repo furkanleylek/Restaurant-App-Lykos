@@ -66,7 +66,7 @@ const AllCategory = () => {
                     )
                     :
                     (
-                        <div className='flex flex-col items-center justify-center '>
+                        <div className='flex flex-col items-center justify-center mt-20 md:mt-2 container mx-auto  xl:pb-32 md:px-16 xl:px-32 relative  '>
                             <TitleH1>
                                 Lykos Menü
                             </TitleH1>

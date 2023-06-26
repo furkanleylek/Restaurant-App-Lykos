@@ -10,7 +10,7 @@ const MenuPage = () => {
             <div className='fixed md:relative top-0 z-20 bg-secondaryBg w-full'>
                 <Header />
             </div>
-            <div className='w-full flex flex-col gap-16 xl:gap-32 mt-20 md:mt-4 container mx-auto  xl:pb-32 md:px-16 xl:px-32 relative '
+            <div className='w-full flex flex-col gap-16 xl:gap-32 '
             >
                 <AllCategory />
             </div>
