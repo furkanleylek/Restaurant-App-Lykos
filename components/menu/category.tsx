@@ -54,7 +54,7 @@ const AllCategory = () => {
                     (
                         <div>
                             <MenuHeader />
-                            <Food dishData={MenuData.category[categoryIndex].Menu} />
+                            <Food dishData={MenuData.category[categoryIndex].Menu} dishCategoryTitle={MenuData.category[categoryIndex].categoryTitle} />
                         </div >
                     )
                     :
