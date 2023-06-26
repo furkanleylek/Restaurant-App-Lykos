@@ -66,11 +66,11 @@ const AllCategory = () => {
                     )
                     :
                     (
-                        <div className='flex flex-col items-center justify-center gap-9 mdlg:gap-12 pt-4'>
+                        <div className='flex flex-col items-center justify-center '>
                             <TitleH1>
                                 Lykos Menü
                             </TitleH1>
-                            <div className='grid grid-cols-1 md:grid-cols-2 w-full md:gap-2'>
+                            <div className='grid grid-cols-1 md:grid-cols-2 w-full md:gap-2 mt-5'>
                                 {
                                     MenuData.category.map((e, index) => {
                                         return (
