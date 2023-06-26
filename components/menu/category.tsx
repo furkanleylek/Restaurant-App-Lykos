@@ -29,7 +29,7 @@ const SingleCategory: React.FC<SingleCategoryProps> = ({ categoryTitle, category
                 setCategoryIndex(categoryIndex)
                 setInsideCategory(true)
             }}
-            className='relative w-full h-36 md:h-40 xl:h-52 flex items-center justify-center shadow-md shadow-gray-400 cursor-pointer'
+            className='relative w-full h-40 md:h-44 xl:h-52 flex items-center justify-center shadow-md shadow-gray-400 cursor-pointer'
         >
             <h3 className={classNames('text-white font-semibold text-xl xl:text-3xl absolute z-10', cormo.className)}>
                 {categoryTitle}
@@ -66,11 +66,11 @@ const AllCategory = () => {
                     )
                     :
                     (
-                        <div className='flex flex-col items-center justify-center gap-9 mdlg:gap-12 py-4'>
+                        <div className='flex flex-col items-center justify-center gap-9 mdlg:gap-12 pt-4'>
                             <TitleH1>
                                 Lykos Menü
                             </TitleH1>
-                            <div className='grid grid-cols-1 md:grid-cols-2 w-full gap-4'>
+                            <div className='grid grid-cols-1 md:grid-cols-2 w-full md:gap-2'>
                                 {
                                     MenuData.category.map((e, index) => {
                                         return (

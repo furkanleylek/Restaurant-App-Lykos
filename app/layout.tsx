@@ -23,9 +23,6 @@ export default function RootLayout({
         <div className="flex flex-col">
           <Provider>
             {children}
-            <div className='w-full h-full bg-secondaryBg'>
-              <Footer />
-            </div>
           </Provider>
         </div>
       </body>

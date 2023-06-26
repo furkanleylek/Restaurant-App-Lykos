@@ -8,7 +8,7 @@ import Slider from '@/components/home/sectionFour/slider'
 import PopulerDishes from '@/components/home/sectionFive/populer'
 import data from '@/data.json'
 import Header from '@/components/header/header'
-
+import Footer from '@/components/footer/footer'
 
 export default function Home() {
   return (
@@ -94,6 +94,10 @@ export default function Home() {
           <PopulerDishes />
         </div>
       </section>
+
+      <div className='w-full h-full bg-secondaryBg'>
+        <Footer />
+      </div>
     </main>
   )
 }
