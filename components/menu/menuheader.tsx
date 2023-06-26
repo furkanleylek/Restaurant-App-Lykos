@@ -9,7 +9,8 @@ const MenuHeader = () => {
 
     return (
         <div
-            className=' bg-rose-50 w-full fixed top-[71px] mdlg:top-[272px] xl:top-[303px] inset-x-0'
+            className=' bg-gray-50 w-full fixed top-[71px] mdlg:top-[267px] xl:top-[300px] inset-x-0 shadow-md cursor-pointer'
+            id='menu-header'
         >
             <div
                 onClick={() => {

@@ -52,7 +52,10 @@ const SingleFood: React.FC<SingleFoodProps> = ({ dishTitle, dishDescription, dis
 
 const Food: React.FC<MenuProps> = ({ dishData, dishCategoryTitle }) => {
     return (
-        <div className='flex flex-col w-full mt-16 gap-6'>
+        <div
+            className='flex flex-col w-full mt-16 gap-6'
+            id='food'
+        >
             <TitleH4
                 className='underline underline-offset-4 text-3xl text-center'
             >
