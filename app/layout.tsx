@@ -22,9 +22,6 @@ export default function RootLayout({
       <body className={classNames('w-full h-full bg-white', josef.className)}>
         <div className="flex flex-col">
           <Provider>
-            <div className='w-full h-full bg-secondaryBg'>
-              <Header />
-            </div>
             {children}
             <div className='w-full h-full bg-secondaryBg'>
               <Footer />

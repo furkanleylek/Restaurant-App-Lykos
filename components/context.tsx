@@ -2,17 +2,21 @@
 import React, { createContext, useState, useContext } from 'react'
 
 interface ContextType {
-    isFilter: boolean;
-    setIsFilter: React.Dispatch<React.SetStateAction<boolean>>
+    categoryIndex: number;
+    setCategoryIndex: React.Dispatch<React.SetStateAction<number>>
+    insideCategory: boolean;
+    setInsideCategory: React.Dispatch<React.SetStateAction<boolean>>
 }
 const Context = createContext<ContextType | undefined>(undefined)
 
 function Provider({ children }: { children: React.ReactNode }) {
 
-    const [isFilter, setIsFilter] = useState(false)
+    const [categoryIndex, setCategoryIndex] = useState(0)
+    const [insideCategory, setInsideCategory] = useState(false)
 
     const data = {
-        isFilter, setIsFilter,
+        categoryIndex, setCategoryIndex,
+        insideCategory, setInsideCategory
     }
 
     return (

@@ -7,10 +7,15 @@ import Special from '@/components/home/sectionThree/special'
 import Slider from '@/components/home/sectionFour/slider'
 import PopulerDishes from '@/components/home/sectionFive/populer'
 import data from '@/data.json'
+import Header from '@/components/header/header'
+
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center  overflow-x-hidden">
-
+      <div className='w-full h-full bg-secondaryBg'>
+        <Header />
+      </div>
       {/* Section 1*/}
       <section
         className="w-full h-full  bg-secondaryBg"

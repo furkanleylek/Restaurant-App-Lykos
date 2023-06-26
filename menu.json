@@ -3,7 +3,7 @@
         {
             "categoryTitle": "Başlangıç",
             "categoryImageSource": "/Category/Baslangıc.jpg",
-            "Baslangıc": [
+            "Menu": [
                 {
                     "dishImageSrc": "/Food/Raw.svg",
                     "dishTitle": "Raw Scallops from Erguy",
@@ -39,7 +39,7 @@
         {
             "categoryTitle": "Salatalar",
             "categoryImageSource": "/Category/Salatalar.jpg",
-            "Salatalar": [
+            "Menu": [
                 {
                     "dishImageSrc": "/Food/Grilled.svg",
                     "dishTitle": "Grilled Salmon with Dil Sauce",
@@ -69,7 +69,7 @@
         {
             "categoryTitle": "Ev Yemekleri",
             "categoryImageSource": "/Category/Evyemekleri.jpg",
-            "Evyemekleri": [
+            "Menu": [
                 {
                     "dishImageSrc": "/Food/Grilled.svg",
                     "dishTitle": "Grilled Salmon with Dil Sauce",
@@ -99,7 +99,7 @@
         {
             "categoryTitle": "Kahvaltı",
             "categoryImageSource": "/Category/Kahvaltı.jpg",
-            "Kahvaltı": [
+            "Menu": [
                 {
                     "dishImageSrc": "/Food/Grilled.svg",
                     "dishTitle": "Grilled Salmon with Dil Sauce",
@@ -129,7 +129,7 @@
         {
             "categoryTitle": "İçecekler",
             "categoryImageSource": "/Category/Kahvaltı.jpg",
-            "İcecek": [
+            "Menu": [
                 {
                     "dishImageSrc": "/Food/Grilled.svg",
                     "dishTitle": "Grilled Salmon with Dil Sauce",
@@ -159,7 +159,7 @@
         {
             "categoryTitle": "Tatlılar",
             "categoryImageSource": "/Category/Tatlı.jpg",
-            "Tatlı": [
+            "Menu": [
                 {
                     "dishImageSrc": "/Food/Grilled.svg",
                     "dishTitle": "Grilled Salmon with Dil Sauce",

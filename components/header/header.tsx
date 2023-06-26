@@ -12,7 +12,7 @@ const josefin = Josefin_Sans({ subsets: ['latin'] })
 const Header = () => {
     return (
         <header
-            className="md:container mx-auto px-4 md:px-16 xl:px-32 w-full flex flex-col py-8 gap-10"
+            className="md:container mx-auto px-4 md:px-16 xl:px-32 w-full flex flex-col py-4 xl:py-8 gap-10"
         >
             <div className='flex justify-between items-center text-white mdlg:hidden'>
                 <Image
