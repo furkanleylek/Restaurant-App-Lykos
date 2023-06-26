@@ -14,7 +14,7 @@ const cormo = Cormorant_Infant({ subsets: ['latin'], weight: '700' })
 
 const SingleCategory: React.FC<SingleCategoryProps> = ({ categoryTitle, categoryImageSource }) => {
     return (
-        <div className='relative w-full h-24 md:h-32 xl:h-44 flex items-center justify-center shadow-md shadow-secondary'>
+        <div className='relative w-full h-36 md:h-40 xl:h-52 flex items-center justify-center shadow-md shadow-secondary'>
             <h3 className={classNames('text-white font-semibold text-xl xl:text-3xl absolute z-10', cormo.className)}>
                 {categoryTitle}
             </h3>
