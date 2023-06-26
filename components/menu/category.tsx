@@ -70,7 +70,7 @@ const AllCategory = () => {
                             <TitleH1>
                                 Lykos Menü
                             </TitleH1>
-                            <div className='grid grid-cols-1 md:grid-cols-2 w-full md:gap-2 mt-5'>
+                            <div className='grid grid-cols-1 md:grid-cols-2 w-full gap-1 md:gap-2 mt-5'>
                                 {
                                     MenuData.category.map((e, index) => {
                                         return (
