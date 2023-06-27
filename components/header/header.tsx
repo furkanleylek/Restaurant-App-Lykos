@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <header
-            className="md:container mx-auto px-4 md:px-16 xl:px-32 w-full flex flex-col py-4 xl:py-8 gap-10"
+            className="md:container mx-auto px-4 md:px-16 xl:px-32 w-full flex flex-col py-4 xl:py-8 gap-10 "
         >
             <div className='flex justify-between items-center text-white mdlg:hidden'>
                 <Link href="/">
@@ -34,7 +34,7 @@ const Header = () => {
                     <span className={`${isOpen ? '-rotate-[-45deg]  translate-y-[-6px]  border-secondary' : ' border-white'} h-2 w-[32px] border-b-[2px] rounded-sm transform transition ease-in-out `}></span>
                 </button>
             </div>
-            <div className='hidden mdlg:flex items-center justify-between'>
+            {/* <div className='hidden mdlg:flex items-center justify-between'>
                 <p className='border-[1px]  py-3 px-5 border-stroke text-third'>
                     Call - 987 654 321
                 </p>
@@ -49,23 +49,31 @@ const Header = () => {
                 >
                     Reservation
                 </button>
-            </div>
-            <div className='border-y-[1px] border-primary text-third hidden mdlg:flex justify-between items-center'>
+            </div> */}
+            <div className='text-third hidden mdlg:flex justify-between items-center'>
+                <Link href="/">
+                    <Image
+                        src="/Logo.svg"
+                        width={125}
+                        height={125}
+                        alt="Restaurant Logo"
+                    />
+                </Link>
                 <div className='flex items-center p-2 mt-1 gap-16'>
-                    <UnderlineAnimation linkHref='/'>
-                        Home
-                    </UnderlineAnimation>
                     <UnderlineAnimation linkHref='/'>
                         Hakkımızda
                     </UnderlineAnimation>
-                    <UnderlineAnimation linkHref='/'>
-                        Galeri
+                    <UnderlineAnimation linkHref='/menu'>
+                        Menü
                     </UnderlineAnimation>
                     <UnderlineAnimation linkHref='/'>
                         İletişim
                     </UnderlineAnimation>
+                    <UnderlineAnimation linkHref='/giris'>
+                        Giriş Yap
+                    </UnderlineAnimation>
                 </div>
-                <div
+                {/* <div
                     className='flex items-center gap-4 text-third text-2xl'
                 >
                     <Link href="https://www.twitter.com" passHref target='_blank'>
@@ -74,7 +82,7 @@ const Header = () => {
                     <Link href="https://www.instagram.com" passHref target='_blank'>
                         <AiOutlineInstagram />
                     </Link>
-                </div>
+                </div> */}
             </div>
             {isOpen && (
                 <NavbarModal setIsOpen={setIsOpen} />

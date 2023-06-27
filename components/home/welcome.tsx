@@ -9,7 +9,7 @@ const WelcomeSection = () => {
     return (
         <>
             <div
-                className='flex flex-col justify-center gap-6 z-10'
+                className='flex flex-col justify-center gap-10 z-10'
             >
                 <h1 className={classNames(
                     "text-white text-4xl md:text-6xl xl:text-8xl font-semibold", Cormo.className)}>
