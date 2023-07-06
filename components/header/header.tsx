@@ -69,7 +69,7 @@ const Header = () => {
                     <UnderlineAnimation linkHref='/'>
                         İletişim
                     </UnderlineAnimation>
-                    <UnderlineAnimation linkHref='/giris'>
+                    <UnderlineAnimation linkHref='/'>
                         Giriş Yap
                     </UnderlineAnimation>
                 </div>

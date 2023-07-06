@@ -2,6 +2,12 @@ import React from 'react'
 import AllCategory from '@/components/menu/category'
 import Image from 'next/image'
 import Link from 'next/link'
+
+export const Metadata = {
+    title: 'Lykos | Menü ',
+    description: 'Erbaa Lykos restorant cafe günün menüsü',
+}
+
 const MenuPage = () => {
     return (
         <section

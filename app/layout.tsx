@@ -4,10 +4,9 @@ import classNames from 'classnames'
 import Provider from '@/components/context'
 import Header from '@/components/header/header'
 import Footer from '@/components/footer/footer'
-import { type Metadata } from 'next'
 const josef = Josefin_Sans({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
+export const Metadata = {
   title: 'Lykos Restorant',
   description: 'Erbaa Lykos restorant cafe',
 }
